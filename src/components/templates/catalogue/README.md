@@ -12,12 +12,12 @@ import { CatalogueTemplate } from '../components/template';
 
 ## Props
 
-This component does not support props.
+This component does not require any props.
   
 ## Usage
 
 To use in a `.jsx` file:
 
-```js
+```jsx
 <CatalogueTemplate />
 ```

@@ -23,7 +23,7 @@ This component supports the following custom props:
 
 To use in a `.jsx` file:
 
-```js
+```jsx
 <StaticQuery
   query={graphql`
     query ExampleQuery {

@@ -24,22 +24,18 @@ This component supports the following custom props:
     - inStock (`Boolean`): is the product in stock.
 - onClick: `Function`
   - **optional**
-    - the function to be called when the card button is clicked.
-    - can only be used if an href is not included
+  - the function to be called when the card button is clicked.
+  - can only be used if an href is not included
 - href: `String`
   - **optional**
-    - the pathname of the page to navigate to.
-    - takes priority over the onClick
-- data-testid: `String`
-  - **optional**
-  - defaults to "product-card-molecule".
-  - use for testing.
+  - the pathname of the page to navigate to.
+  - takes priority over the onClick
 
 ## Usage
 
 To use in a `.jsx` file:
 
-```js
+```jsx
 <ProductCard
   product={{
     staticId: 'SOME_ID',

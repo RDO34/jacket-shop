@@ -15,30 +15,24 @@ import { Hero } from '../../../atoms';
 This component supports the following custom props:
 
 - src: `String`
-  - __required__
+  - **required**
   - the image source for the background.
   - must be a url.
-  
 - height: `String`
-  - __optional__
+  - **optional**
   - sets the height of the hero image.
   - defaults to 512px.
   - must include a unit of measurement, e.g. `px`, `%`, `em`, etc.
-  
-- data-testid: `String`
-  - __optional__
-  - defaults to "hero-atom".
-  - use for testing.
   
 ## Usage
 
 To use in a `.jsx` file:
 
-```js
+```jsx
 <Hero src="https://some-src.ca" />
 ```
 With child components:
-```js
+```jsx
 <Hero
   src="https://some-src.ca"
   data-testid="example-testid"
